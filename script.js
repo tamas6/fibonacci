@@ -10,7 +10,6 @@ function myFunction() {
     // fibonacci calculation itself!
     let a = 0,
       b = 1,
-      c,
       result;
     for (let i = 1; i <= x; i++) {
       result = a + b;
