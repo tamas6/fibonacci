@@ -7,7 +7,7 @@ function myFunction() {
   if (isNaN(x) || x < 1) {
     text = "Input not valid";
   } else {
-    // fibonacci calculation itself
+    // fibonacci calculation itself!
     let a = 0,
       b = 1,
       c,
