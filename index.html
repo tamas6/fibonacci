@@ -140,31 +140,10 @@
           <div class="entrance-hero-flexbox">
                     <h1 class="heading-1 inhero">
                       Which element do you want me to calculate? <br /><br />
-                    
-<input id="numb">
+                    <input id="numb">
 <button type="button" onclick="myFunction()">Submit</button>
 <p id="progi"></p>
-<script>
-function myFunction() {
-  // Get the value of the input field with id="progi"
-  let x = document.getElementById("numb").value;
-  // input validation
-    let text;
-    if (isNaN(x) || x < 1) {
-      text = "Input not valid";
-    } else {
-      // fibonacci calculation itself
-      let a = 0, b = 1, c, result;
-              for (let i = 1; i <= x; i++) {
-                result = a + b;
-                a = b;
-                b = result;
-              }
-              text= b-a;
-    }
-    document.getElementById("progi").innerHTML = (text === Number(text)) ? `the result is ${text}` : text;
-}
-</script></h1>
+<script src="script.js"></script></h1>
                   </div>
                 </div>
              
