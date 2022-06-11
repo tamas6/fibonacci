@@ -1,6 +1,6 @@
 # Try. Calculate. It's easy.
 
-## If you've ever wondered what is the value of a specific number on the Fbonacci sequence
+## If you've ever wondered what is the value of a specific number on the Fibonacci sequence
 
 Clone the repo or just donwload the files, open
 
